@@ -1,0 +1,423 @@
+IP;DNS;Owner;OS;QID;Title;CVE ID;Vendor Reference;OS CPE;Solution;First Detected
+10.15.159.108;srvap775.rccf.ru;Luxoft Support group;Ubuntu / Tiny Core Linux / Linux 2.6.x;42444;Java Debug Wire Protocol Remote Code Execution Vulnerability;;;;Disable the service;04.03.2017 03:03:39
+10.12.249.67;dstpap03vm.rccf.ru;Way4 Support group;Windows XP Service Pack 3;105543;EOL/Obsolete Operating System: Microsoft Windows XP Detected;;Windows XP End of Life;cpe:/o:microsoft:windows_xp::sp3::;Update to the latest supported Windows operating system from Microsoft. Refer to Windows Products (http://windows.microsoft.com/en-us/windows/products).;04.03.2017 09:52:13
+10.15.129.192;srvap402.rccf.ru;Unix Support group;Ubuntu / Tiny Core Linux / Linux 2.6.x;19965;MongoDB Accessible Without Authentication;;;;Enable the authentication of MongoDB.;06.05.2017 06:26:01
+10.12.248.185;diasoft03vm.rccf.ru;ABS Support group;Windows Server 2003 R2 Service Pack 2;105348;EOL/Obsolete Software: Microsoft Office 2007 RTM Detected;;KB949585;cpe:/o:microsoft:windows_2003_server::r2::;Upgrade to the latest supported version of Microsoft Office.;04.03.2017 03:55:15
+10.12.248.159;diasoft01vm.rccf.ru;ABS Support group;Windows Server 2003 R2 Service Pack 2;105348;EOL/Obsolete Software: Microsoft Office 2007 RTM Detected;;KB949585;cpe:/o:microsoft:windows_2003_server::r2::;Upgrade to the latest supported version of Microsoft Office.;03.03.2017 23:48:29
+172.29.2.4;srvap015.rccf.ru;ABS Support group;Windows Server 2003 R2 Service Pack 2;115229;Microsoft Windows Media Player Remote Code Execution (MS15-057);CVE-2015-1728;MS15-057;cpe:/o:microsoft:windows_2003_server::r2::;"Please refer to MS15-057 (https://technet.microsoft.com/library/security/ms15-057) for more details.
+ 
+
+
+
+
+
+
+
+
+
+Workaround: 
+- Remove wmplayer.exe from the Internet Explorer ElevationPolicy
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  MS15-057: Windows Server 2003 Service Pack 2 (Windows Media Player 10) (https://www.microsoft.com/downloads/details.aspx?familyid=46567c7e-c059-4734-b63a-953736154fa0)  MS15-057: Windows Server 2003 x64 Edition Service Pack 2 (Windows Media Player 10) (https://www.microsoft.com/downloads/details.aspx?familyid=21bc0cd5-d1a6-4214-8912-77f495da51e6)  MS15-057: Windows Vista Service Pack 2 (Windows Media Player 11) (https://www.microsoft.com/downloads/details.aspx?familyid=e0e4cf57-2108-425c-a01c-afcd975d3eae)  MS15-057: Windows Vista x64 Edition Service Pack 2 (Windows Media Player 11) (https://www.microsoft.com/downloads/details.aspx?familyid=1853144b-7c90-485e-ba74-85ff9d7d8b42)  MS15-057: Windows Server 2008 for 32-bit Systems Service Pack 2 (Windows Media Player 11) (https://www.microsoft.com/downloads/details.aspx?familyid=bb492000-2644-434f-aafc-161dbff38310)  MS15-057: Windows Server 2008 for x64-based Systems Service Pack 2 (Windows Media Player 11) (https://www.microsoft.com/downloads/details.aspx?familyid=4414cc5b-5049-4020-b75a-303c81259781)  MS15-057: Windows 7 for 32-bit Systems Service Pack 1 (Windows Media Player 12) (https://www.microsoft.com/downloads/details.aspx?familyid=b68e7be5-3f4f-4d41-a3b0-e8e859fcf0ca)  MS15-057: Windows 7 for x64-based Systems Service Pack 1 (Windows Media Player 12) (https://www.microsoft.com/downloads/details.aspx?familyid=96ed873d-1d5f-4a23-a20e-6b10b1733f59)  MS15-057: Windows Server 2008 R2 for x64-based Systems Service Pack 1 (Windows Media Player 12) (https://www.microsoft.com/downloads/details.aspx?familyid=687eb4f9-5d58-46bc-8ab6-d6e87a253b0e)";04.03.2017 10:11:33
+172.29.2.35;srvwe045.rccf.ru;Application Support group;CentOS 6.8;256208;CentOS Security Update for nss (CESA-2017:1100);CVE-2017-5461;CESA-2017:1100 centos 6, CESA-2017:1100 centos 7;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-April/022392.html) centos 7 (https://lists.centos.org/pipermail/centos-announce/2017-April/022397.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2017:1100: centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-April/022392.html)  CESA-2017:1100: centos 7 (https://lists.centos.org/pipermail/centos-announce/2017-April/022397.html)";29.04.2017 02:18:35
+172.29.2.35;srvwe045.rccf.ru;Application Support group;CentOS 6.8;256246;CentOS Security Update for kernel (CESA-2017:1723);CVE-2017-7895;CESA-2017:1723 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-July/022497.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2017:1723: centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-July/022497.html)";29.07.2017 03:06:55
+172.29.2.35;srvwe045.rccf.ru;Application Support group;CentOS 6.8;256242;CentOS Security Update for bind (CESA-2017:1679);CVE-2017-3142, CVE-2017-3143;CESA-2017:1679 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-July/022492.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2017:1679: centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-July/022492.html)";15.07.2017 03:08:45
+172.29.2.35;srvwe045.rccf.ru;Application Support group;CentOS 6.8;256234;CentOS Security Update for glibc (CESA-2017:1480) (Stack Clash);CVE-2017-1000366;CESA-2017:1480 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-June/022462.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2017:1480: centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-June/022462.html)";24.06.2017 08:31:32
+172.29.2.35;srvwe045.rccf.ru;Application Support group;CentOS 6.8;256233;CentOS Security Update for kernel (CESA-2017:1486) (Stack Clash);CVE-2017-1000364;CESA-2017:1486 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-June/022461.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2017:1486: centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-June/022461.html)";24.06.2017 08:31:32
+172.29.2.35;srvwe045.rccf.ru;Application Support group;CentOS 6.8;256228;CentOS Security Update for nss (CESA-2017:1364);CVE-2017-7502;CESA-2017:1364 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-May/022449.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2017:1364: centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-May/022449.html)";10.06.2017 06:55:04
+172.29.2.35;srvwe045.rccf.ru;Application Support group;CentOS 6.8;256226;CentOS Security Update for sudo (CESA-2017:1382);CVE-2017-1000367;CESA-2017:1382 centos 6, CESA-2017:1382 centos 7;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-May/022442.html) centos 7 (https://lists.centos.org/pipermail/centos-announce/2017-May/022450.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2017:1382: centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-May/022442.html)  CESA-2017:1382: centos 7 (https://lists.centos.org/pipermail/centos-announce/2017-May/022450.html)";10.06.2017 06:55:04
+172.29.2.35;srvwe045.rccf.ru;Application Support group;CentOS 6.8;256215;CentOS Security Update for jasper (CESA-2017:1208);CVE-2015-5203, CVE-2015-5221, CVE-2016-10248, CVE-2016-10249, CVE-2016-10251, CVE-2016-1577, CVE-2016-1867, CVE-2016-2089, CVE-2016-2116, CVE-2016-8654, CVE-2016-8690, CVE-2016-8691, CVE-2016-8692, CVE-2016-8693, CVE-2016-8883, CVE-2016-8884, CVE-2016-8885, CVE-2016-9262, CVE-2016-9387, CVE-2016-9388, CVE-2016-9389, CVE-2016-9390, CVE-2016-9391, CVE-2016-9392, CVE-2016-9393, CVE-2016-9394, CVE-2016-9560, CVE-2016-9583, CVE-2016-9591, CVE-2016-9600;CESA-2017:1208 centos 6, CESA-2017:1208 centos 7;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-May/022408.html) centos 7 (https://lists.centos.org/pipermail/centos-announce/2017-May/022411.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2017:1208: centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-May/022408.html)  CESA-2017:1208: centos 7 (https://lists.centos.org/pipermail/centos-announce/2017-May/022411.html)";10.06.2017 06:55:04
+172.29.2.35;srvwe045.rccf.ru;Application Support group;CentOS 6.8;256211;CentOS Security Update for bind (CESA-2017:1202);CVE-2017-3139;CESA-2017:1202 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-May/022402.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2017:1202: centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-May/022402.html)";10.06.2017 06:55:04
+172.29.2.35;srvwe045.rccf.ru;Application Support group;CentOS 6.8;256209;CentOS Security Update for bind (CESA-2017:1105);CVE-2017-3136, CVE-2017-3137;CESA-2017:1105 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-April/022393.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2017:1105: centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-April/022393.html)";29.04.2017 02:18:35
+172.29.2.35;srvwe045.rccf.ru;Application Support group;CentOS 6.8;256210;CentOS Security Update for Samba (CESA-2017:1270, CESA-2017:1271);CVE-2017-7494;;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-May/022419.html) centos 7 (https://lists.centos.org/pipermail/centos-announce/2017-May/022420.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  centos7 (http://mirror.centos.org/centos/7.3.1611/updates/x86_64/Packages/?C=M;O=D -)  centos 6 (http://mirror.centos.org/centos/6.9/updates/x86_64/Packages/?C=M;O=D)";10.06.2017 06:55:04
+172.29.2.35;srvwe045.rccf.ru;Application Support group;CentOS 6.8;256198;CentOS Security Update for kernel (CESA-2017:0892);CVE-2016-7910, CVE-2017-2636;CESA-2017:0892 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-April/022358.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2017:0892: centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-April/022358.html)";22.04.2017 06:52:40
+172.29.2.35;srvwe045.rccf.ru;Application Support group;CentOS 6.8;256166;CentOS Security Update for kernel (CESA-2017:0293);CVE-2017-6074;CESA-2017:0293 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-February/022279.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2017:0293: centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-February/022279.html)";11.03.2017 08:57:07
+172.29.2.35;srvwe045.rccf.ru;Application Support group;CentOS 6.8;256146;CentOS Security Update for kernel (CESA-2017:0036);CVE-2016-4998, CVE-2016-6828, CVE-2016-7117;CESA-2017:0036 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-January/022206.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2017:0036: centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-January/022206.html)";04.03.2017 08:47:56
+172.29.2.35;srvwe045.rccf.ru;Application Support group;CentOS 6.8;256086;CentOS Security Update for kernel (CESA-2016:2766);CVE-2016-1583, CVE-2016-2143;CESA-2016:2766 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-November/022153.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2016:2766: centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-November/022153.html)";04.03.2017 08:47:56
+172.29.2.35;srvwe045.rccf.ru;Application Support group;CentOS 6.8;256076;CentOS Security Update for kernel (CESA-2016:2105);CVE-2016-5195;CESA-2016:2105 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-October/022134.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2016:2105: centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-October/022134.html)";04.03.2017 08:47:56
+172.29.2.35;srvwe045.rccf.ru;Application Support group;CentOS 6.8;256068;CentOS Security Update for kernel (CESA-2016:2006);CVE-2016-4470, CVE-2016-5829;CESA-2016:2006 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-October/022117.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2016:2006: centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-October/022117.html)";04.03.2017 08:47:56
+172.29.2.35;srvwe045.rccf.ru;Application Support group;CentOS 6.8;256060;CentOS Security Update for kernel (CESA-2016:1664);CVE-2016-5696;CESA-2016:1664 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-August/022053.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2016:1664: centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-August/022053.html)";04.03.2017 08:47:56
+172.29.2.35;srvwe045.rccf.ru;Application Support group;CentOS 6.8;256040;CentOS Security Update for kernel (CESA-2016:1406);CVE-2016-4565;CESA-2016:1406 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-July/021977.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2016:1406: centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-July/021977.html)";04.03.2017 08:47:56
+172.29.2.35;srvwe045.rccf.ru;Application Support group;CentOS 6.8;124515;CentOS Security Update for kernel (CESA-2015:2636);CVE-2015-2925, CVE-2015-5307, CVE-2015-7613, CVE-2015-7872, CVE-2015-8104;CESA-2015:2636 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2015-December/021541.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2015:2636: centos 6 (https://lists.centos.org/pipermail/centos-announce/2015-December/021541.html)";04.03.2017 08:47:56
+172.29.2.35;srvwe045.rccf.ru;Application Support group;CentOS 6.8;123850;CentOS Security Update for kernel Security Update (CESA-2015:1623);CVE-2015-5364, CVE-2015-5366;CESA-2015:1623 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2015-August/021327.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2015:1623: centos 6 (https://lists.centos.org/pipermail/centos-announce/2015-August/021327.html)";04.03.2017 08:47:56
+172.29.2.35;srvwe045.rccf.ru;Application Support group;CentOS 6.8;123562;CentOS Security Update for kernel (CESA-2015:0864);CVE-2014-3215, CVE-2014-3690, CVE-2014-7825, CVE-2014-7826, CVE-2014-8171, CVE-2014-8884, CVE-2014-9529, CVE-2014-9584, CVE-2015-1421;CESA-2015:0864 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (http://lists.centos.org/pipermail/centos-announce/2015-April/021083.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2015:0864: centos 6 (http://lists.centos.org/pipermail/centos-announce/2015-April/021083.html)";04.03.2017 08:47:56
+172.29.2.35;srvwe045.rccf.ru;Application Support group;CentOS 6.8;123480;CentOS Security Update for kernel (CESA-2015:0674);CVE-2014-7822, CVE-2014-8159, CVE-2014-8160, CVE-2014-8369, CVE-2014-3601;CESA-2015:0674 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (http://lists.centos.org/pipermail/centos-announce/2015-March/020972.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2015:0674: centos 6 (http://lists.centos.org/pipermail/centos-announce/2015-March/020972.html)";04.03.2017 08:47:56
+172.29.2.35;srvwe045.rccf.ru;Application Support group;CentOS 6.8;123245;CentOS Security Update for kernel (CESA-2015:0087);CVE-2014-4656, CVE-2014-7841;CESA-2015:0087 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (http://lists.centos.org/pipermail/centos-announce/2015-January/020910.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2015:0087: centos 6 (http://lists.centos.org/pipermail/centos-announce/2015-January/020910.html)";04.03.2017 08:47:56
+172.29.2.35;srvwe045.rccf.ru;Application Support group;CentOS 6.8;123059;CentOS Security Update for kernel  (CESA-2014:1997);CVE-2012-6657, CVE-2014-3673, CVE-2014-3687, CVE-2014-3688, CVE-2014-5471, CVE-2014-5472, CVE-2014-6410, CVE-2014-9322;CESA-2014:1997 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (http://lists.centos.org/pipermail/centos-announce/2014-December/020838.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2014:1997: centos 6 (http://lists.centos.org/pipermail/centos-announce/2014-December/020838.html)";04.03.2017 08:47:56
+172.29.2.35;srvwe045.rccf.ru;Application Support group;CentOS 6.8;122849;CentOS Security Update for kernel (CESA-2014:1843);CVE-2014-3185, CVE-2014-3611, CVE-2014-3645, CVE-2014-3646;CESA-2014:1843 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (http://lists.centos.org/pipermail/centos-announce/2014-November/020748.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2014:1843: centos 6 (http://lists.centos.org/pipermail/centos-announce/2014-November/020748.html)";04.03.2017 08:47:56
+172.29.2.35;srvwe045.rccf.ru;Application Support group;CentOS 6.8;122649;CentOS Security Update for Kernel  (CESA-2014:1167);CVE-2014-0205, CVE-2014-3535, CVE-2014-3917, CVE-2014-4667;CESA-2014:1167 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (http://lists.centos.org/pipermail/centos-announce/2014-September/020548.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2014:1167: centos 6 (http://lists.centos.org/pipermail/centos-announce/2014-September/020548.html)";04.03.2017 08:47:56
+172.29.2.35;srvwe045.rccf.ru;Application Support group;CentOS 6.8;122503;CentOS Security Update for kernel (CESA-2014:0981);CVE-2012-6647, CVE-2013-7339, CVE-2014-2672, CVE-2014-2678, CVE-2014-2706, CVE-2014-2851, CVE-2014-3144, CVE-2014-3145;CESA-2014:0981 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (http://lists.centos.org/pipermail/centos-announce/2014-July/020458.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2014:0981: centos 6 (http://lists.centos.org/pipermail/centos-announce/2014-July/020458.html)";04.03.2017 08:47:56
+172.29.2.35;srvwe045.rccf.ru;Application Support group;CentOS 6.8;122500;CentOS Security Update for kernel (CESA-2014:0924);CVE-2014-4699, CVE-2014-4943;CESA-2014:0924 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (http://lists.centos.org/pipermail/centos-announce/2014-July/020444.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2014:0924: centos 6 (http://lists.centos.org/pipermail/centos-announce/2014-July/020444.html)";04.03.2017 08:47:56
+172.29.2.35;srvwe045.rccf.ru;Application Support group;CentOS 6.8;122149;CentOS Security Update for Kernel (CESA-2014:0771);CVE-2013-6378, CVE-2014-0203, CVE-2014-1737, CVE-2014-1738, CVE-2014-1874, CVE-2014-2039, CVE-2014-3153;CESA-2014:0771 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (http://lists.centos.org/pipermail/centos-announce/2014-June/020379.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2014:0771: centos 6 (http://lists.centos.org/pipermail/centos-announce/2014-June/020379.html)";04.03.2017 08:47:56
+172.29.2.35;srvwe045.rccf.ru;Application Support group;CentOS 6.8;115255;CentOS Security Update for kernel (CESA-2015:1081);CVE-2014-9419, CVE-2014-9420, CVE-2014-9585, CVE-2015-1805, CVE-2015-3331;CESA-2015:1081 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (http://lists.centos.org/pipermail/centos-announce/2015-June/021165.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2015:1081: centos 6 (http://lists.centos.org/pipermail/centos-announce/2015-June/021165.html)";04.03.2017 08:47:56
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;256208;CentOS Security Update for nss (CESA-2017:1100);CVE-2017-5461;CESA-2017:1100 centos 6, CESA-2017:1100 centos 7;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-April/022392.html) centos 7 (https://lists.centos.org/pipermail/centos-announce/2017-April/022397.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2017:1100: centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-April/022392.html)  CESA-2017:1100: centos 7 (https://lists.centos.org/pipermail/centos-announce/2017-April/022397.html)";29.04.2017 08:56:52
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;256246;CentOS Security Update for kernel (CESA-2017:1723);CVE-2017-7895;CESA-2017:1723 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-July/022497.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2017:1723: centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-July/022497.html)";29.07.2017 07:49:10
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;256242;CentOS Security Update for bind (CESA-2017:1679);CVE-2017-3142, CVE-2017-3143;CESA-2017:1679 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-July/022492.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2017:1679: centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-July/022492.html)";15.07.2017 02:00:40
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;256234;CentOS Security Update for glibc (CESA-2017:1480) (Stack Clash);CVE-2017-1000366;CESA-2017:1480 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-June/022462.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2017:1480: centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-June/022462.html)";24.06.2017 05:39:18
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;256233;CentOS Security Update for kernel (CESA-2017:1486) (Stack Clash);CVE-2017-1000364;CESA-2017:1486 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-June/022461.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2017:1486: centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-June/022461.html)";24.06.2017 05:39:18
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;256228;CentOS Security Update for nss (CESA-2017:1364);CVE-2017-7502;CESA-2017:1364 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-May/022449.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2017:1364: centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-May/022449.html)";10.06.2017 01:32:57
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;256226;CentOS Security Update for sudo (CESA-2017:1382);CVE-2017-1000367;CESA-2017:1382 centos 6, CESA-2017:1382 centos 7;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-May/022442.html) centos 7 (https://lists.centos.org/pipermail/centos-announce/2017-May/022450.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2017:1382: centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-May/022442.html)  CESA-2017:1382: centos 7 (https://lists.centos.org/pipermail/centos-announce/2017-May/022450.html)";10.06.2017 01:32:57
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;256222;CentOS Security Update for rpcbind (CESA-2017:1267);CVE-2017-8779;CESA-2017:1267 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-May/022417.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2017:1267: centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-May/022417.html)";10.06.2017 01:32:57
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;256221;CentOS Security Update for libtirpc (CESA-2017:1268);CVE-2017-8779;CESA-2017:1268 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-May/022416.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2017:1268: centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-May/022416.html)";10.06.2017 01:32:57
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;256215;CentOS Security Update for jasper (CESA-2017:1208);CVE-2015-5203, CVE-2015-5221, CVE-2016-10248, CVE-2016-10249, CVE-2016-10251, CVE-2016-1577, CVE-2016-1867, CVE-2016-2089, CVE-2016-2116, CVE-2016-8654, CVE-2016-8690, CVE-2016-8691, CVE-2016-8692, CVE-2016-8693, CVE-2016-8883, CVE-2016-8884, CVE-2016-8885, CVE-2016-9262, CVE-2016-9387, CVE-2016-9388, CVE-2016-9389, CVE-2016-9390, CVE-2016-9391, CVE-2016-9392, CVE-2016-9393, CVE-2016-9394, CVE-2016-9560, CVE-2016-9583, CVE-2016-9591, CVE-2016-9600;CESA-2017:1208 centos 6, CESA-2017:1208 centos 7;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-May/022408.html) centos 7 (https://lists.centos.org/pipermail/centos-announce/2017-May/022411.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2017:1208: centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-May/022408.html)  CESA-2017:1208: centos 7 (https://lists.centos.org/pipermail/centos-announce/2017-May/022411.html)";10.06.2017 01:32:57
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;256211;CentOS Security Update for bind (CESA-2017:1202);CVE-2017-3139;CESA-2017:1202 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-May/022402.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2017:1202: centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-May/022402.html)";10.06.2017 01:32:57
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;256210;CentOS Security Update for Samba (CESA-2017:1270, CESA-2017:1271);CVE-2017-7494;;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-May/022419.html) centos 7 (https://lists.centos.org/pipermail/centos-announce/2017-May/022420.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  centos7 (http://mirror.centos.org/centos/7.3.1611/updates/x86_64/Packages/?C=M;O=D -)  centos 6 (http://mirror.centos.org/centos/6.9/updates/x86_64/Packages/?C=M;O=D)";10.06.2017 01:32:57
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;256209;CentOS Security Update for bind (CESA-2017:1105);CVE-2017-3136, CVE-2017-3137;CESA-2017:1105 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-April/022393.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2017:1105: centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-April/022393.html)";29.04.2017 08:56:52
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;256198;CentOS Security Update for kernel (CESA-2017:0892);CVE-2016-7910, CVE-2017-2636;CESA-2017:0892 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-April/022358.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2017:0892: centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-April/022358.html)";29.04.2017 08:56:52
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;256166;CentOS Security Update for kernel (CESA-2017:0293);CVE-2017-6074;CESA-2017:0293 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-February/022279.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2017:0293: centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-February/022279.html)";29.04.2017 08:56:52
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;256157;CentOS Security Update for mysql (CESA-2017:0184);CVE-2016-5616, CVE-2016-6662, CVE-2016-6663;CESA-2017:0184 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-January/022257.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2017:0184: centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-January/022257.html)";29.04.2017 08:56:52
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;256148;CentOS Security Update for bind (CESA-2017:0063);CVE-2016-9147;CESA-2017:0063 centos 5, CESA-2017:0063 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 5 (https://lists.centos.org/pipermail/centos-announce/2017-January/022211.html) centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-January/022214.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2017:0063: centos 5 (https://lists.centos.org/pipermail/centos-announce/2017-January/022211.html)  CESA-2017:0063: centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-January/022214.html)";29.04.2017 08:56:52
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;256146;CentOS Security Update for kernel (CESA-2017:0036);CVE-2016-4998, CVE-2016-6828, CVE-2016-7117;CESA-2017:0036 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-January/022206.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2017:0036: centos 6 (https://lists.centos.org/pipermail/centos-announce/2017-January/022206.html)";29.04.2017 08:56:52
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;256112;CentOS Security Update for bind (CESA-2016:1944);CVE-2016-2776;CESA-2016:1944 centos 5, CESA-2016:1944 centos 6, CESA-2016:1944 centos 7;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 5 (https://lists.centos.org/pipermail/centos-announce/2016-September/022092.html) centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-September/022094.html) centos 7 (https://lists.centos.org/pipermail/centos-announce/2016-September/022097.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2016:1944: centos 5 (https://lists.centos.org/pipermail/centos-announce/2016-September/022092.html)  CESA-2016:1944: centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-September/022094.html)  CESA-2016:1944: centos 7 (https://lists.centos.org/pipermail/centos-announce/2016-September/022097.html)";29.04.2017 08:56:52
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;256110;CentOS Security Update for openssl (CESA-2016:1940);CVE-2016-2177, CVE-2016-2178, CVE-2016-2179, CVE-2016-2180, CVE-2016-2181, CVE-2016-2182, CVE-2016-6302, CVE-2016-6304, CVE-2016-6306, CVE-2016-2183;CESA-2016:1940 centos 7, CESA-2016:1940 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 7 (https://lists.centos.org/pipermail/centos-announce/2016-September/022096.html) centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-September/022098.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2016:1940: centos 7 (https://lists.centos.org/pipermail/centos-announce/2016-September/022096.html)  CESA-2016:1940: centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-September/022098.html)";29.04.2017 08:56:52
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;256086;CentOS Security Update for kernel (CESA-2016:2766);CVE-2016-1583, CVE-2016-2143;CESA-2016:2766 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-November/022153.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2016:2766: centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-November/022153.html)";29.04.2017 08:56:52
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;256083;CentOS Security Update for policycoreutils (CESA-2016:2702);CVE-2016-7545;CESA-2016:2702 centos 6, CESA-2016:2702 centos 7;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-November/022147.html) and centos 7 (https://lists.centos.org/pipermail/centos-cr-announce/2016-November/003686.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2016:2702: centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-November/022147.html)  CESA-2016:2702: centos 7 (https://lists.centos.org/pipermail/centos-cr-announce/2016-November/003686.html)";29.04.2017 08:56:52
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;256078;CentOS Security Update for bind (CESA-2016:2141);CVE-2016-8864;CESA-2016:2141 centos 6, CESA-2016:2141 centos 5;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-November/022136.html) centos 5 (https://lists.centos.org/pipermail/centos-announce/2016-November/022137.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2016:2141: centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-November/022136.html)  CESA-2016:2141: centos 5 (https://lists.centos.org/pipermail/centos-announce/2016-November/022137.html)";29.04.2017 08:56:52
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;256076;CentOS Security Update for kernel (CESA-2016:2105);CVE-2016-5195;CESA-2016:2105 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-October/022134.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2016:2105: centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-October/022134.html)";29.04.2017 08:56:52
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;256073;CentOS Security Update for bind (CESA-2016:2093);CVE-2016-2848;CESA-2016:2093 centos 6, CESA-2016:2093 centos 5;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-October/022127.html) centos 5 (https://lists.centos.org/pipermail/centos-announce/2016-October/022130.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2016:2093: centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-October/022127.html)  CESA-2016:2093: centos 5 (https://lists.centos.org/pipermail/centos-announce/2016-October/022130.html)";29.04.2017 08:56:52
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;256068;CentOS Security Update for kernel (CESA-2016:2006);CVE-2016-4470, CVE-2016-5829;CESA-2016:2006 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-October/022117.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2016:2006: centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-October/022117.html)";29.04.2017 08:56:52
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;256060;CentOS Security Update for kernel (CESA-2016:1664);CVE-2016-5696;CESA-2016:1664 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-August/022053.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2016:1664: centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-August/022053.html)";29.04.2017 08:56:52
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;256047;CentOS Security Update for libtiff (CESA-2016:1547);CVE-2014-8127, CVE-2014-8129, CVE-2014-8130, CVE-2014-9330, CVE-2014-9655, CVE-2015-1547, CVE-2015-7554, CVE-2015-8665, CVE-2015-8668, CVE-2015-8683, CVE-2015-8781, CVE-2015-8782, CVE-2015-8783, CVE-2015-8784, CVE-2016-3632, CVE-2016-3945, CVE-2016-3990, CVE-2016-3991, CVE-2016-5320;CESA-2016:1547 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-August/021999.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2016:1547: centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-August/021999.html)";29.04.2017 08:56:52
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;256040;CentOS Security Update for kernel (CESA-2016:1406);CVE-2016-4565;CESA-2016:1406 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-July/021977.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2016:1406: centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-July/021977.html)";29.04.2017 08:56:52
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;256035;CentOS Security Update for libxml2 (CESA-2016:1292);CVE-2016-1762, CVE-2016-1833, CVE-2016-1834, CVE-2016-1835, CVE-2016-1836, CVE-2016-1837, CVE-2016-1838, CVE-2016-1839, CVE-2016-1840, CVE-2016-3627, CVE-2016-3705, CVE-2016-4447, CVE-2016-4448, CVE-2016-4449;CESA-2016:1292 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-June/021917.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2016:1292: centos 6 (https://lists.centos.org/pipermail/centos-announce/2016-June/021917.html)";29.04.2017 08:56:52
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;256023;CentOS Security Update for openssl (CESA-2016:0996);CVE-2016-0799, CVE-2016-2105, CVE-2016-2106, CVE-2016-2107, CVE-2016-2108, CVE-2016-2109, CVE-2016-2842;CESA-2016:0996 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-cr-announce/2016-May/003097.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2016:0996: centos 6 (https://lists.centos.org/pipermail/centos-cr-announce/2016-May/003097.html)";29.04.2017 08:56:52
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;124515;CentOS Security Update for kernel (CESA-2015:2636);CVE-2015-2925, CVE-2015-5307, CVE-2015-7613, CVE-2015-7872, CVE-2015-8104;CESA-2015:2636 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2015-December/021541.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2015:2636: centos 6 (https://lists.centos.org/pipermail/centos-announce/2015-December/021541.html)";29.04.2017 08:56:52
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;123850;CentOS Security Update for kernel Security Update (CESA-2015:1623);CVE-2015-5364, CVE-2015-5366;CESA-2015:1623 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (https://lists.centos.org/pipermail/centos-announce/2015-August/021327.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2015:1623: centos 6 (https://lists.centos.org/pipermail/centos-announce/2015-August/021327.html)";29.04.2017 08:56:52
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;123562;CentOS Security Update for kernel (CESA-2015:0864);CVE-2014-3215, CVE-2014-3690, CVE-2014-7825, CVE-2014-7826, CVE-2014-8171, CVE-2014-8884, CVE-2014-9529, CVE-2014-9584, CVE-2015-1421;CESA-2015:0864 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (http://lists.centos.org/pipermail/centos-announce/2015-April/021083.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2015:0864: centos 6 (http://lists.centos.org/pipermail/centos-announce/2015-April/021083.html)";29.04.2017 08:56:52
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;123480;CentOS Security Update for kernel (CESA-2015:0674);CVE-2014-7822, CVE-2014-8159, CVE-2014-8160, CVE-2014-8369, CVE-2014-3601;CESA-2015:0674 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (http://lists.centos.org/pipermail/centos-announce/2015-March/020972.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2015:0674: centos 6 (http://lists.centos.org/pipermail/centos-announce/2015-March/020972.html)";29.04.2017 08:56:52
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;123245;CentOS Security Update for kernel (CESA-2015:0087);CVE-2014-4656, CVE-2014-7841;CESA-2015:0087 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (http://lists.centos.org/pipermail/centos-announce/2015-January/020910.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2015:0087: centos 6 (http://lists.centos.org/pipermail/centos-announce/2015-January/020910.html)";29.04.2017 08:56:52
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;123059;CentOS Security Update for kernel  (CESA-2014:1997);CVE-2012-6657, CVE-2014-3673, CVE-2014-3687, CVE-2014-3688, CVE-2014-5471, CVE-2014-5472, CVE-2014-6410, CVE-2014-9322;CESA-2014:1997 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (http://lists.centos.org/pipermail/centos-announce/2014-December/020838.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2014:1997: centos 6 (http://lists.centos.org/pipermail/centos-announce/2014-December/020838.html)";29.04.2017 08:56:52
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;122849;CentOS Security Update for kernel (CESA-2014:1843);CVE-2014-3185, CVE-2014-3611, CVE-2014-3645, CVE-2014-3646;CESA-2014:1843 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (http://lists.centos.org/pipermail/centos-announce/2014-November/020748.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2014:1843: centos 6 (http://lists.centos.org/pipermail/centos-announce/2014-November/020748.html)";29.04.2017 08:56:52
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;122649;CentOS Security Update for Kernel  (CESA-2014:1167);CVE-2014-0205, CVE-2014-3535, CVE-2014-3917, CVE-2014-4667;CESA-2014:1167 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (http://lists.centos.org/pipermail/centos-announce/2014-September/020548.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2014:1167: centos 6 (http://lists.centos.org/pipermail/centos-announce/2014-September/020548.html)";29.04.2017 08:56:52
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;122503;CentOS Security Update for kernel (CESA-2014:0981);CVE-2012-6647, CVE-2013-7339, CVE-2014-2672, CVE-2014-2678, CVE-2014-2706, CVE-2014-2851, CVE-2014-3144, CVE-2014-3145;CESA-2014:0981 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (http://lists.centos.org/pipermail/centos-announce/2014-July/020458.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2014:0981: centos 6 (http://lists.centos.org/pipermail/centos-announce/2014-July/020458.html)";29.04.2017 08:56:52
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;122500;CentOS Security Update for kernel (CESA-2014:0924);CVE-2014-4699, CVE-2014-4943;CESA-2014:0924 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (http://lists.centos.org/pipermail/centos-announce/2014-July/020444.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2014:0924: centos 6 (http://lists.centos.org/pipermail/centos-announce/2014-July/020444.html)";29.04.2017 08:56:52
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;122149;CentOS Security Update for Kernel (CESA-2014:0771);CVE-2013-6378, CVE-2014-0203, CVE-2014-1737, CVE-2014-1738, CVE-2014-1874, CVE-2014-2039, CVE-2014-3153;CESA-2014:0771 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (http://lists.centos.org/pipermail/centos-announce/2014-June/020379.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2014:0771: centos 6 (http://lists.centos.org/pipermail/centos-announce/2014-June/020379.html)";29.04.2017 08:56:52
+172.29.2.34;srvwe044.rccf.ru;Application Support group;CentOS 6.8;115255;CentOS Security Update for kernel (CESA-2015:1081);CVE-2014-9419, CVE-2014-9420, CVE-2014-9585, CVE-2015-1805, CVE-2015-3331;CESA-2015:1081 centos 6;cpe:/o:centos:centos:6.8:::;"To resolve this issue, upgrade to the latest packages which contain a patch. Refer to CentOS advisory centos 6 (http://lists.centos.org/pipermail/centos-announce/2015-June/021165.html) for updates and patch information.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  CESA-2015:1081: centos 6 (http://lists.centos.org/pipermail/centos-announce/2015-June/021165.html)";29.04.2017 08:56:52
+172.29.2.32;srvap698.rccf.ru;Local Support;Windows Server 2008 R2 Enterprise 64 bit Edition Service Pack 1;105646;EOL/Obsolete Software: Microsoft Internet Explorer 8 Detected;;Microsoft Support Lifecycle for Internet Explorer;cpe:/o:microsoft:windows_server_2008:r2:sp1:enterprise_x64:;Users are advised to upgrade to the latest version of Internet Explorer. Latest version can be downloaded from here (https://www.microsoft.com/en-in/download/internet-explorer.aspx).;04.03.2017 08:16:59
+172.29.2.32;srvap698.rccf.ru;Local Support;Windows Server 2008 R2 Enterprise 64 bit Edition Service Pack 1;91405;Microsoft Windows Security Update August 2017;CVE-2017-0299, CVE-2017-8633, CVE-2017-8664, CVE-2017-8666, CVE-2017-8668, CVE-2017-0174, CVE-2017-0250, CVE-2017-0293, CVE-2017-8591, CVE-2017-8593, CVE-2017-8620, CVE-2017-8622, CVE-2017-8623, CVE-2017-8624, CVE-2017-8627, CVE-2017-8673, CVE-2017-8691;KB4022750, KB4034034, KB4034658, KB4034660, KB4034664, KB4034665, KB4034666, KB4034668, KB4034672, KB4034674, KB4034679, KB4034681, KB4034744, KB4034745, KB4034775, KB4035055, KB4035056, KB4035679;cpe:/o:microsoft:windows_server_2008:r2:sp1:enterprise_x64:;"Customers are advised to refer to Microsoft Security Guidance (https://portal.msrc.microsoft.com/en-us/security-guidance) for more details pertaining to this vulnerability. 
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  KB4035679 (http://www.catalog.update.microsoft.com/search.aspx?q=4035679)  KB4034681 (http://www.catalog.update.microsoft.com/search.aspx?q=4034681)  KB4034672 (http://www.catalog.update.microsoft.com/search.aspx?q=4034672)  KB4034664 (http://www.catalog.update.microsoft.com/search.aspx?q=4034664)  KB4034679 (http://www.catalog.update.microsoft.com/search.aspx?q=4034679)  KB4034665 (http://www.catalog.update.microsoft.com/search.aspx?q=4034665)  KB4034666 (http://www.catalog.update.microsoft.com/search.aspx?q=4034666)  KB4034660 (http://www.catalog.update.microsoft.com/search.aspx?q=4034660)  KB4034658 (http://www.catalog.update.microsoft.com/search.aspx?q=4034658)  KB4034668 (http://www.catalog.update.microsoft.com/search.aspx?q=4034668)  KB4034674 (http://www.catalog.update.microsoft.com/search.aspx?q=4034674)  KB4035055 (http://www.catalog.update.microsoft.com/search.aspx?q=4035055)  KB4034744 (http://www.catalog.update.microsoft.com/search.aspx?q=4034744)  KB4022750 (http://www.catalog.update.microsoft.com/search.aspx?q=4022750)  KB4034775 (http://www.catalog.update.microsoft.com/search.aspx?q=4034775)  KB4034034 (http://www.catalog.update.microsoft.com/search.aspx?q=4034034)  KB4034745 (http://www.catalog.update.microsoft.com/search.aspx?q=4034745)  KB4035056 (http://www.catalog.update.microsoft.com/search.aspx?q=4035056)";12.08.2017 08:49:09
+172.29.2.25;srvwe043.rccf.ru;Application Support group;Solaris 9-10;38605;SSL/TLS Server Factoring RSA Export Keys (FREAK) vulnerability;CVE-2015-0204;;;"Disable RSA_EXPORT cipher suites. 
+Do not use temporary RSA key multiple times";29.04.2017 06:29:12
+172.29.2.24;srvfw012.rccf.ru;Windows Support group;Windows Server 2008 R2 Enterprise 64 bit Edition Service Pack 1;91383;Microsoft Silverlight 5 Security Update June 2017;CVE-2017-0283, CVE-2017-8527;KB4023307;cpe:/o:microsoft:windows_server_2008:r2:sp1:enterprise_x64:;"Customers are advised to view KB4023307 (https://support.microsoft.com/en-us/help/4023307/title) for instructions pertaining to the remediation of these vulnerabilities. 
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  KB4023307 (http://catalog.update.microsoft.com/v7/site/search.aspx?q=4023307)";17.06.2017 08:38:09
+172.29.2.24;srvfw012.rccf.ru;Windows Support group;Windows Server 2008 R2 Enterprise 64 bit Edition Service Pack 1;100317;Microsoft Internet Explorer Security Update for August 2017;CVE-2017-0228, CVE-2017-8625, CVE-2017-8635, CVE-2017-8636, CVE-2017-8641, CVE-2017-8651, CVE-2017-8653, CVE-2017-8669;4034658, 4034660, 4034664, 4034665, 4034668, 4034674, 4034681, 4034733;cpe:/o:microsoft:windows_server_2008:r2:sp1:enterprise_x64:;"For more information, Customers are advised to refer the Security Update Guide. (https://portal.msrc.microsoft.com/en-us/security-guidance) 
+
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  Microsoft Security Update Guide (https://portal.msrc.microsoft.com/en-us/security-guidance)";12.08.2017 07:28:58
+172.29.2.24;srvfw012.rccf.ru;Windows Support group;Windows Server 2008 R2 Enterprise 64 bit Edition Service Pack 1;100315;Microsoft Internet Explorer Security Update for July 2017;CVE-2017-8592, CVE-2017-8594, CVE-2017-8602, CVE-2017-8606, CVE-2017-8607, CVE-2017-8608, CVE-2017-8618;KB4025252, KB4025331, KB4025336, KB4025338, KB4025339, KB4025341, KB4025342, KB4025344;cpe:/o:microsoft:windows_server_2008:r2:sp1:enterprise_x64:;"For more information, Customers are advised to refer the Security Update Guide. (https://portal.msrc.microsoft.com/en-us/security-guidance) 
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  Microsoft Security Update Guide (https://portal.msrc.microsoft.com/en-us/security-guidance)";15.07.2017 05:10:40
+172.29.2.24;srvfw012.rccf.ru;Windows Support group;Windows Server 2008 R2 Enterprise 64 bit Edition Service Pack 1;100313;Microsoft Internet Explorer Security Update for June 2017;CVE-2017-8517, CVE-2017-8519, CVE-2017-8522, CVE-2017-8524, CVE-2017-8529, CVE-2017-8547;KB4022714, KB4022715, KB4022719, KB4022724, KB4022725, KB4022726, KB4022727, KB4021558;cpe:/o:microsoft:windows_server_2008:r2:sp1:enterprise_x64:;"For more information, Customers are advised to refer the Security Update Guide. (https://portal.msrc.microsoft.com/en-us/security-guidance) 
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  4022714 (https://www.catalog.update.microsoft.com/Search.aspx?q=4022714)  4022726 (https://www.catalog.update.microsoft.com/Search.aspx?q=4022726)  4021558 (https://www.catalog.update.microsoft.com/Search.aspx?q=4021558)  4022715 (https://www.catalog.update.microsoft.com/Search.aspx?q=4022715)  4022727 (https://www.catalog.update.microsoft.com/Search.aspx?q=4022727)  4022725 (https://www.catalog.update.microsoft.com/Search.aspx?q=4022725)  4022724 (https://www.catalog.update.microsoft.com/Search.aspx?q=4022724)  4022719 (https://www.catalog.update.microsoft.com/Search.aspx?q=4022719)";17.06.2017 08:38:09
+172.29.2.24;srvfw012.rccf.ru;Windows Support group;Windows Server 2008 R2 Enterprise 64 bit Edition Service Pack 1;100310;Microsoft Internet Explorer Security Update for May 2017;CVE-2017-0064, CVE-2017-0222, CVE-2017-0226, CVE-2017-0228, CVE-2017-0231, CVE-2017-0238;KB4016871, KB4018271, KB4019215, KB4019264, KB4019472, KB4019473, KB4019474;cpe:/o:microsoft:windows_server_2008:r2:sp1:enterprise_x64:;"For more information, Customers are advised to refer the Security Update Guide. (https://portal.msrc.microsoft.com/en-us/security-guidance) 
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  Microsoft Internet Explorer Security Update for May 2017  (https://portal.msrc.microsoft.com/en-us/security-guidance)  KB4018271: Windows Server 2012 (Internet Explorer 10 ) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4018271)  KB4018271: Windows Embedded 8 Standard for x64-based Systems (Internet Explorer 10) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4018271)  KB4018271:  Windows Embedded 8 Standard (Internet Explorer 10) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4018271)  KB4018271: Windows Server 2008 (Internet Explorer 9) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4018271)  KB4018271: Windows Server 2008 x64 Edition (Internet Explorer 9) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4018271)  KB4018271: Windows Embedded Standard 7 for x64-based Systems  (Internet Explorer 11) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4018271)  KB4018271: Windows 7 for x64-based Systems  (Internet Explorer 11) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4018271)  KB4018271:  Windows 8.1 (Internet Explorer 11) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4018271)  KB4018271: Windows Embedded Standard 7 (Internet Explorer 11) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4018271)  KB4018271: Windows 7  (Internet Explorer 11) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4018271)  KB4018271: Windows Embedded Standard 7  (Internet Explorer 11) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4018271)  KB4018271: Windows 8.1 for x64-based Systems (Internet Explorer 11) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4018271)  KB4018271: Windows Server 2012 R2 (Internet Explorer 11) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4018271)  KB4018271: Windows Server 2008 R2 for x64-based Systems (Internet Explorer 11) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4018271)  KB4019264: Windows 7 for x86-based Systems  (Internet Explorer 11) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4019264)  KB4019264:  Windows Server 2008 R2 for x64-based Systems (Internet Explorer 11) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4019264)  KB4019264: Windows Embedded Standard 7 for x86-based Systems  (Internet Explorer 11) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4019264)  KB4019264: Windows Embedded Standard 7 for x64-based Systems  (Internet Explorer 11) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4019264)  KB4019264: Windows Server 2008 R2 for Itanium-based Systems  (Internet Explorer 11) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4019264)  KB4019264:  Windows 7 for x64-based Systems (Internet Explorer 11) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4019264)  KB4019473:  Windows 10 Version 1511  (Internet Explorer 11) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4019473)  KB4019473: Windows 10 Version 1511 for x64-based Systems (Internet Explorer 11) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4019473)  KB4019215: Monthly Quality Rollup for Windows 8.1 for x86-based Systems (Internet Explorer 11) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4019215)  KB4019215:  Monthly Quality Rollup for Windows Server 2012 R2 for x64-based Systems (Internet Explorer 11) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4019215)  KB4019215: Monthly Quality Rollup for Windows 8.1 for x64-based Systems  (Internet Explorer 11) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4019215)  KB4019472:  Windows Server 2016 for x64-based Systems (Internet Explorer 11) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4019472)  KB4019472: Windows 10 Version 1607 for x64-based Systems (Internet Explorer 11) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4019472)  KB4019472: Windows 10 Version 1607 for x86-based Systems (Internet Explorer 11) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4019472)  KB4019474:  Windows 10 for x64-based Systems (Internet Explorer 11) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4019474)  KB4019474: Windows 10 for x86-based Systems (Internet Explorer 11) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4019474)  KB4016871: Windows 10 Version 1703 for x64-based Systems  (Internet Explorer 11) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4016871)  KB4016871: Windows 10 Version 1703 for x86-based Systems  (Internet Explorer 11) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4016871)  KB4018271: Windows XP Embedded (Internet Explorer 8 ) (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4016871)";13.05.2017 08:01:04
+172.29.2.24;srvfw012.rccf.ru;Windows Support group;Windows Server 2008 R2 Enterprise 64 bit Edition Service Pack 1;91405;Microsoft Windows Security Update August 2017;CVE-2017-0299, CVE-2017-8633, CVE-2017-8664, CVE-2017-8666, CVE-2017-8668, CVE-2017-0174, CVE-2017-0250, CVE-2017-0293, CVE-2017-8591, CVE-2017-8593, CVE-2017-8620, CVE-2017-8622, CVE-2017-8623, CVE-2017-8624, CVE-2017-8627, CVE-2017-8673, CVE-2017-8691;KB4022750, KB4034034, KB4034658, KB4034660, KB4034664, KB4034665, KB4034666, KB4034668, KB4034672, KB4034674, KB4034679, KB4034681, KB4034744, KB4034745, KB4034775, KB4035055, KB4035056, KB4035679;cpe:/o:microsoft:windows_server_2008:r2:sp1:enterprise_x64:;"Customers are advised to refer to Microsoft Security Guidance (https://portal.msrc.microsoft.com/en-us/security-guidance) for more details pertaining to this vulnerability. 
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  KB4035679 (http://www.catalog.update.microsoft.com/search.aspx?q=4035679)  KB4034681 (http://www.catalog.update.microsoft.com/search.aspx?q=4034681)  KB4034672 (http://www.catalog.update.microsoft.com/search.aspx?q=4034672)  KB4034664 (http://www.catalog.update.microsoft.com/search.aspx?q=4034664)  KB4034679 (http://www.catalog.update.microsoft.com/search.aspx?q=4034679)  KB4034665 (http://www.catalog.update.microsoft.com/search.aspx?q=4034665)  KB4034666 (http://www.catalog.update.microsoft.com/search.aspx?q=4034666)  KB4034660 (http://www.catalog.update.microsoft.com/search.aspx?q=4034660)  KB4034658 (http://www.catalog.update.microsoft.com/search.aspx?q=4034658)  KB4034668 (http://www.catalog.update.microsoft.com/search.aspx?q=4034668)  KB4034674 (http://www.catalog.update.microsoft.com/search.aspx?q=4034674)  KB4035055 (http://www.catalog.update.microsoft.com/search.aspx?q=4035055)  KB4034744 (http://www.catalog.update.microsoft.com/search.aspx?q=4034744)  KB4022750 (http://www.catalog.update.microsoft.com/search.aspx?q=4022750)  KB4034775 (http://www.catalog.update.microsoft.com/search.aspx?q=4034775)  KB4034034 (http://www.catalog.update.microsoft.com/search.aspx?q=4034034)  KB4034745 (http://www.catalog.update.microsoft.com/search.aspx?q=4034745)  KB4035056 (http://www.catalog.update.microsoft.com/search.aspx?q=4035056)";12.08.2017 07:28:58
+172.29.2.24;srvfw012.rccf.ru;Windows Support group;Windows Server 2008 R2 Enterprise 64 bit Edition Service Pack 1;91393;Microsoft Windows Security Update July 2017;CVE-2017-0071, CVE-2017-0170, CVE-2017-8463, CVE-2017-8467, CVE-2017-8486, CVE-2017-8495, CVE-2017-8556, CVE-2017-8557, CVE-2017-8561, CVE-2017-8562, CVE-2017-8563, CVE-2017-8564, CVE-2017-8565, CVE-2017-8566, CVE-2017-8573, CVE-2017-8574, CVE-2017-8577, CVE-2017-8578, CVE-2017-8580, CVE-2017-8581, CVE-2017-8582, CVE-2017-8584, CVE-2017-8587, CVE-2017-8588, CVE-2017-8589, CVE-2017-8590, CVE-2017-8592, CVE-2017-8543;KB4022746, KB4022748, KB4022914, KB4025240, KB4025331, KB4025333, KB4025336, KB4025337, KB4025338, KB4025339, KB4025341, KB4025342, KB4025343, KB4025344, KB4025397, KB4025398, KB4025409, KB4025497, KB4025674, KB4025872, KB4025877, KB4026059, KB4026061, KB4032955;cpe:/o:microsoft:windows_server_2008:r2:sp1:enterprise_x64:;"Customers are advised to refer to Microsoft Security Guidance (https://portal.msrc.microsoft.com/en-us/security-guidance) for more details pertaining to this vulnerability. 
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  KB4025397 (http://www.catalog.update.microsoft.com/search.aspx?q=4025397)  KB4025341 (http://www.catalog.update.microsoft.com/search.aspx?q=4025341)  KB4025337 (http://www.catalog.update.microsoft.com/search.aspx?q=4025337)  KB4025336 (http://www.catalog.update.microsoft.com/search.aspx?q=4025336)  KB4025333 (http://www.catalog.update.microsoft.com/search.aspx?q=4025333)  KB4025344 (http://www.catalog.update.microsoft.com/search.aspx?q=4025344)  KB4025331 (http://www.catalog.update.microsoft.com/search.aspx?q=4025331)  KB4025343 (http://www.catalog.update.microsoft.com/search.aspx?q=4025343)  KB4025339 (http://www.catalog.update.microsoft.com/search.aspx?q=4025339)  KB4025338 (http://www.catalog.update.microsoft.com/search.aspx?q=4025338)  KB4025342 (http://www.catalog.update.microsoft.com/search.aspx?q=4025342)  KB4025497 (http://www.catalog.update.microsoft.com/search.aspx?q=4025497)  KB4025877 (http://www.catalog.update.microsoft.com/search.aspx?q=4025877)  KB4022746 (http://www.catalog.update.microsoft.com/search.aspx?q=4022746)  KB4025398 (http://www.catalog.update.microsoft.com/search.aspx?q=4025398)  KB4025409 (http://www.catalog.update.microsoft.com/search.aspx?q=4025409)  KB4022748 (http://www.catalog.update.microsoft.com/search.aspx?q=4022748)  KB4025872 (http://www.catalog.update.microsoft.com/search.aspx?q=4025872)  KB4022914 (http://www.catalog.update.microsoft.com/search.aspx?q=4022914)  KB4025674 (http://www.catalog.update.microsoft.com/search.aspx?q=4025674)  KB4026061 (http://www.catalog.update.microsoft.com/search.aspx?q=4026061)  KB4032955 (http://www.catalog.update.microsoft.com/search.aspx?q=4032955)  KB4026059 (http://www.catalog.update.microsoft.com/search.aspx?q=4026059)  KB4025240 (http://www.catalog.update.microsoft.com/search.aspx?q=4025240)";15.07.2017 05:10:40
+172.29.2.24;srvfw012.rccf.ru;Windows Support group;Windows Server 2008 R2 Enterprise 64 bit Edition Service Pack 1;90698;Microsoft Foundation Class Library Remote Code Execution Vulnerability (MS11-025);CVE-2010-3190;MS11-025;cpe:/o:microsoft:windows_server_2008:r2:sp1:enterprise_x64:;"Workaround: 
+ 1)Disable loading of libraries from WebDAV and remote network shares
+ 2) Disable the WebClient service
+ Impact of workaround #2: When the WebClient service is disabled, Web Distributed Authoring and Versioning (WebDAV) requests are not transmitted. In addition, any services that explicitly depend on the Web Client service will not start, and an error message will be logged in the System log. 
+ 
+3) Block TCP ports 139 and 445 at the firewall Impact of workaround #3: Several Windows services use the affected ports. Blocking connectivity to the ports may cause various applications or services to not function. 
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  MS11-025: Microsoft Visual Studio 2010 (http://www.microsoft.com/en-us/download/details.aspx?id=26351)  MS11-025: Microsoft Visual Studio 2010 Service Pack 1 (http://www.microsoft.com/en-us/download/details.aspx?id=27049)  MS11-025: Microsoft Visual C++ 2005 Service Pack 1 Redistributable Package (http://www.microsoft.com/en-us/download/details.aspx?id=26347)  MS11-025: Microsoft Visual C++ 2008 Service Pack 1 Redistributable Package (http://www.microsoft.com/en-us/download/details.aspx?id=26368)  MS11-025: Microsoft Visual Studio .NET 2003 Service Pack 1 (http://www.microsoft.com/en-us/download/details.aspx?id=6818)  MS11-025: Microsoft Visual Studio 2005 Service Pack 1 (http://www.microsoft.com/en-us/download/details.aspx?id=26401)  MS11-025: Microsoft Visual Studio 2008 Service Pack 1 (http://www.microsoft.com/en-us/download/details.aspx?id=26360)  MS11-025: Microsoft Visual C++ 2010 Redistributable Package (http://www.microsoft.com/en-us/download/details.aspx?id=21576)  MS11-025: Microsoft Visual C++ 2010 Redistributable Package Service Pack 1 (http://www.microsoft.com/en-us/download/details.aspx?id=26999)";04.03.2017 02:30:32
+172.29.2.24;srvfw012.rccf.ru;Windows Support group;Windows Server 2008 R2 Enterprise 64 bit Edition Service Pack 1;91385;Microsoft Windows Security Update June 2017;CVE-2017-8554, CVE-2017-0173, CVE-2017-8475, CVE-2017-8476, CVE-2017-8477, CVE-2017-0193, CVE-2017-0215, CVE-2017-0216, CVE-2017-0218, CVE-2017-0219, CVE-2017-0260, CVE-2017-0282, CVE-2017-8478, CVE-2017-8479, CVE-2017-8480, CVE-2017-0284, CVE-2017-0285, CVE-2017-0286, CVE-2017-0287, CVE-2017-8482, CVE-2017-8483, CVE-2017-8484, CVE-2017-0288, CVE-2017-0289, CVE-2017-0291, CVE-2017-8485, CVE-2017-8488, CVE-2017-8489, CVE-2017-0292, CVE-2017-0294, CVE-2017-0295, CVE-2017-0296, CVE-2017-8490, CVE-2017-8491, CVE-2017-0297, CVE-2017-0298, CVE-2017-8492, CVE-2017-8493, CVE-2017-8494, CVE-2017-8515, CVE-2017-8527, CVE-2017-0299, CVE-2017-0300, CVE-2017-8460, CVE-2017-8528, CVE-2017-8531, CVE-2017-8462, CVE-2017-8464, CVE-2017-8532, CVE-2017-8533, CVE-2017-8534, CVE-2017-8465, CVE-2017-8466, CVE-2017-8468, CVE-2017-8469, CVE-2017-8470, CVE-2017-8543, CVE-2017-8544, CVE-2017-8471, CVE-2017-8472, CVE-2017-8553, CVE-2017-8473, CVE-2017-8474, CVE-2017-0283, CVE-2017-8481, CVE-2017-8575, CVE-2017-8576, CVE-2017-8579;KB4022714, KB4022717, KB4022718, KB4022722, KB4022727, KB4022883, KB4022884, KB4022887, KB4024402, KB4025339, KB4025342, KB4021903, KB4021923, KB4022008, KB4022010, KB4022013, KB3217845;cpe:/o:microsoft:windows_server_2008:r2:sp1:enterprise_x64:;"Customers are advised to refer to Microsoft Security Guidance (https://portal.msrc.microsoft.com/en-us/security-guidance) for more details pertaining to this vulnerability. 
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  KB3217845 (http://www.catalog.update.microsoft.com/search.aspx?q=3217845)  KB4021903 (http://www.catalog.update.microsoft.com/search.aspx?q=4021903)  KB4021923 (http://www.catalog.update.microsoft.com/search.aspx?q=4021923)  KB4022008 (http://www.catalog.update.microsoft.com/search.aspx?q=4022008)  KB4022010 (http://www.catalog.update.microsoft.com/search.aspx?q=4022010)  KB4022013 (http://www.catalog.update.microsoft.com/search.aspx?q=4022013)  KB4022714 (http://www.catalog.update.microsoft.com/search.aspx?q=4022714)  KB4022717 (http://www.catalog.update.microsoft.com/search.aspx?q=4022717)  KB4022718 (http://www.catalog.update.microsoft.com/search.aspx?q=4022718)  KB4022722 (http://www.catalog.update.microsoft.com/search.aspx?q=4022722)  KB4022727 (http://www.catalog.update.microsoft.com/search.aspx?q=4022727)  KB4022883 (http://www.catalog.update.microsoft.com/search.aspx?q=4022883)  KB4022884 (http://www.catalog.update.microsoft.com/search.aspx?q=4022884)  KB4022887 (http://www.catalog.update.microsoft.com/search.aspx?q=4022887)  KB4024402 (http://www.catalog.update.microsoft.com/search.aspx?q=4024402)  KB4025342 (http://www.catalog.update.microsoft.com/Search.aspx?q=KB4025342)  KB4025339 (http://www.catalog.update.microsoft.com/Search.aspx?q=KB4025339)";17.06.2017 08:38:09
+172.29.2.24;srvfw012.rccf.ru;Windows Support group;Windows Server 2008 R2 Enterprise 64 bit Edition Service Pack 1;91371;Microsoft .NET Framework Security Update May 2017;CVE-2017-0248;KB4016871, KB4019108, KB4019109, KB4019110, KB4019111, KB4019112, KB4019113, KB4019114, KB4019115, KB4019472, KB4019473, KB4019474;cpe:/o:microsoft:windows_server_2008:r2:sp1:enterprise_x64:;"Customers are advised to refer to Microsoft Security Guidance (https://portal.msrc.microsoft.com/en-us/security-guidance) for more details pertaining to this vulnerability.
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  KB4019109 (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4019109)  KB4019115 (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4019115)  KB4019108 (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4019108)  KB4019112 (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4019112)  KB4019110 (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4019110)  KB4019113 (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4019113)  KB4019111 (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4019111)  KB4019114 (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4019114)  KB4019474 (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4019474)  KB4019473 (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4019473)  KB4019472 (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4019472)  KB4016871 (https://www.catalog.update.microsoft.com/Search.aspx?q=KB4016871)";13.05.2017 08:01:04
+172.29.2.24;srvfw012.rccf.ru;Windows Support group;Windows Server 2008 R2 Enterprise 64 bit Edition Service Pack 1;91369;Microsoft Windows Security Update May 2017;CVE-2017-8552, CVE-2017-0272, CVE-2017-0273, CVE-2017-0274, CVE-2017-0275, CVE-2017-0077, CVE-2017-0171, CVE-2017-0175, CVE-2017-0190, CVE-2017-0212, CVE-2017-0213, CVE-2017-0214, CVE-2017-0220, CVE-2017-0242, CVE-2017-0244, CVE-2017-0245, CVE-2017-0246, CVE-2017-0258, CVE-2017-0259, CVE-2017-0263, CVE-2017-0267, CVE-2017-0268, CVE-2017-0269, CVE-2017-0270, CVE-2017-0271, CVE-2017-0276, CVE-2017-0277, CVE-2017-0278, CVE-2017-0279, CVE-2017-0280, CVE-2017-0290;KB4016871, KB4018196, KB4018556, KB4018821, KB4018885, KB4018927, KB4019149, KB4019204, KB4019206, KB4019213, KB4019214, KB4019215, KB4019216, KB4019263, KB4019264, KB4019472, KB4019473, KB4019474;cpe:/o:microsoft:windows_server_2008:r2:sp1:enterprise_x64:;"Customers are advised to refer to Microsoft Security Guidance (https://portal.msrc.microsoft.com/en-us/security-guidance) for more details pertaining to this vulnerability. 
+ Patch: 
+Following are links for downloading patches to fix the vulnerabilities:
+  KB4019263 (http://www.catalog.update.microsoft.com/search.aspx?q=4019263)  KB4019264 (http://www.catalog.update.microsoft.com/search.aspx?q=4019264)  KB4019215 (http://www.catalog.update.microsoft.com/search.aspx?q=4019215)  KB4019473 (http://www.catalog.update.microsoft.com/search.aspx?q=4019473)  KB4019214 (http://www.catalog.update.microsoft.com/search.aspx?q=4019214)  KB4019472 (http://www.catalog.update.microsoft.com/search.aspx?q=4019472)  KB4019474 (http://www.catalog.update.microsoft.com/search.aspx?q=4019474)  KB4016871 (http://www.catalog.update.microsoft.com/search.aspx?q=4016871)  KB4019149 (http://www.catalog.update.microsoft.com/search.aspx?q=4019149)  KB4018196 (http://www.catalog.update.microsoft.com/search.aspx?q=4018196)  KB4018885 (http://www.catalog.update.microsoft.com/search.aspx?q=4018885)  KB4019206 (http://www.catalog.update.microsoft.com/search.aspx?q=4019206)  KB4018556 (http://www.catalog.update.microsoft.com/search.aspx?q=4018556)  KB4018821 (http://www.catalog.update.microsoft.com/search.aspx?q=4018821)  KB4018927 (http://www.catalog.update.microsoft.com/search.aspx?q=4018927)  KB4019204 (http://www.catalog.update.microsoft.com/search.aspx?q=4019204)  KB4019213 (http://www.catalog.update.microsoft.com/search.aspx?q=4019213)  KB4019216 (http://www.catalog.update.microsoft.com/search.aspx?q=4019216)";13.05.2017 08:01:04
+172.29.2.23;mco.mycredit.ru;Unknown;Solaris 9-10;105459;EOL/Obsolete Software: SNMP Protocol Version Detected;;;;"Disable or remove SNMPv1/2c authentication. Use SNMP version 3 authentication 
+SNMPv3 provides additional security features: 
+Confidentiality - Encryption of packets to prevent snooping by an unauthorized source. 
+Integrity - Message integrity to ensure that a packet has not been tampered with in transit including an optional packet replay protection mechanism. 
+Authentication - to verify that the message is from a valid source.  
+For IBM AIX users the following document is recommended  SNMP for network management (http://www-01.ibm.com/support/knowledgecenter/ssw_aix_71/com.ibm.aix.networkcomm/snmp_intro.htm) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Workaround: 
+ 
+As a temporary measure, block access to SNMP services at the network perimeter.  
+In situations where blocking or disabling SNMP is not possible,restrict all SNMP access to separate, isolated management networks that are not publicly accessible.";04.03.2017 10:10:45
+172.29.2.22;srvwe016.rccf.ru;FOA Support;Solaris 9-10;105459;EOL/Obsolete Software: SNMP Protocol Version Detected;;;;"Disable or remove SNMPv1/2c authentication. Use SNMP version 3 authentication 
+SNMPv3 provides additional security features: 
+Confidentiality - Encryption of packets to prevent snooping by an unauthorized source. 
+Integrity - Message integrity to ensure that a packet has not been tampered with in transit including an optional packet replay protection mechanism. 
+Authentication - to verify that the message is from a valid source.  
+For IBM AIX users the following document is recommended  SNMP for network management (http://www-01.ibm.com/support/knowledgecenter/ssw_aix_71/com.ibm.aix.networkcomm/snmp_intro.htm) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Workaround: 
+ 
+As a temporary measure, block access to SNMP services at the network perimeter.  
+In situations where blocking or disabling SNMP is not possible,restrict all SNMP access to separate, isolated management networks that are not publicly accessible.";29.04.2017 07:22:59
